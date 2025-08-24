@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .h{
+            font-size: 40px;
+            background-color: black;
+            color: red;
+            text-align: center;
+            margin: 0px;
+            
+            
+
+        }
+        .h:hover{
+            background-color: red;
+            color: white;
+
+        }
+        .i{
+            font-size: 50px;
+            width: 300px;
+            height: 100px;
+            border: 2px,solid;
+            border-radius:15px 50px;
+            align-items: center;
+            background-image: url(logo.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: yellow;
+            line-height: 50px;
+            padding: 100px;
+            margin: auto 700px;
+            text-align: center;
+        }
+        .i:hover{
+            transform: rotateX(150deg);
+            transform: rotateZ(360deg);
+            
+            transition: 0.5s;
+
+        }
+        
+        .a,.b,.c,.d{
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: 5s;
+          
+        }
+        
+        .a:hover , .b:hover,.c:hover,.d:hover{
+            width: 300px;
+        }
+        .a{
+            transition-timing-function: ease;
+
+        }
+        .b{
+            transition-timing-function: ease-out;
+            
+        }
+        .c{
+            transition-timing-function: linear;
+            
+        }
+        .d{
+            transition-timing-function: ease-in;
+            
+        }
+        .e{
+            width: 100px;
+            height: 100px;
+            animation-name: vikash;
+            animation-duration: 10s;
+            background-color: blue;
+            position: absolute;
+
+        }
+        @keyframes vikash{
+            0%{
+                background-color: blue;
+                left: 0px;
+                top: 1300px;
+            }
+            25%{
+                background-color: aquamarine;
+                left: 100px;
+                top: 1300px;
+            }
+            50%{
+                background-color: red;
+                left: 200px;
+                top: 1300px;
+            }
+            75%{
+                background-color: yellow;
+                left: 100px;
+                top: 1300px;
+            }
+            100%{
+                background-color: orange;
+                left: 0px;
+                top: 1300px;
+            }
+            
+            
+        }
+        .w{
+            border: 5px,solid,blue;
+            height: 300px;
+            width: 400px;
+            margin-left: 300px;
+            font-size: 80px;
+            text-align:center;
+            padding: 10px;
+            text-transform: uppercase;
+            background-color: white;
+            color: black;
+            
+
+            
+        }
+        .w:hover{color: white;
+            background-color: black;
+            font-style: oblique;
+        }
+        @media  screen and (max-width: 500px){
+            div{
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            .h-right{
+                float: none;
+
+            }
+        }
+            
+        
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+<div class="h">
+<marquee><h1> HELLO WORLD </h1></marquee>
+</div>
+<br>
+<div class="i">
+    <p> hello</p>
+
+</div>
+<div class="w">
+    create website
+</div>
+<br><br>
+<div class="a">
+    hii
+</div>
+<div class="b">
+    hii
+</div>
+<div class="c">
+    hii
+</div>
+<div class="d">
+    hii
+</div>
+<br><br>
+<div class="e">
+    Vikash
+</div>
+<style src = "index.js"></style>
+</body>
+</html>
